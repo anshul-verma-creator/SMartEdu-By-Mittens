@@ -1,0 +1,149 @@
+{
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Rajesh Kumar",
+      "dob": "2003-05-15",
+      "gender": "Male",
+      "email": "rajesh.k@student.edu",
+      "phone": "9876543210",
+      "course": "B.Tech CSE",
+      "enrollmentDate": "2022-07-15",
+      "status": "Active",
+      "score": 85.5
+    },
+    {
+      "id": "STU002",
+      "name": "Priya Singh",
+      "dob": "2003-08-22",
+      "gender": "Female",
+      "email": "priya.singh@student.edu",
+      "phone": "9876543211",
+      "course": "B.Tech ECE",
+      "enrollmentDate": "2022-07-15",
+      "status": "Active",
+      "score": 88.0
+    },
+    {
+      "id": "STU003",
+      "name": "Amit Patel",
+      "dob": "2003-03-10",
+      "gender": "Male",
+      "email": "amit.patel@student.edu",
+      "phone": "9876543212",
+      "course": "B.Tech Mechanical",
+      "enrollmentDate": "2022-07-15",
+      "status": "Active",
+      "score": 82.5
+    }
+  ],
+  "admissions": [
+    {
+      "id": "ADM001",
+      "name": "Vikram Sharma",
+      "dob": "2004-01-20",
+      "gender": "Male",
+      "email": "vikram.sharma@gmail.com",
+      "phone": "9876543220",
+      "course": "B.Tech CSE",
+      "score": 92.0,
+      "address": "123 Main Street, City",
+      "status": "Pending",
+      "appliedDate": "2024-11-01"
+    },
+    {
+      "id": "ADM002",
+      "name": "Neha Gupta",
+      "dob": "2004-02-14",
+      "gender": "Female",
+      "email": "neha.gupta@gmail.com",
+      "phone": "9876543221",
+      "course": "B.A.",
+      "score": 88.5,
+      "address": "456 Park Avenue, City",
+      "status": "Approved",
+      "appliedDate": "2024-11-02"
+    }
+  ],
+  "fees": [
+    {
+      "id": "FEE001",
+      "studentId": "STU001",
+      "studentName": "Rajesh Kumar",
+      "amount": 50000,
+      "type": "Tuition",
+      "date": "2024-10-15",
+      "method": "Online Transfer",
+      "status": "Paid",
+      "reference": "TXN20241015001"
+    },
+    {
+      "id": "FEE002",
+      "studentId": "STU002",
+      "studentName": "Priya Singh",
+      "amount": 12000,
+      "type": "Hostel",
+      "date": "2024-10-20",
+      "method": "Cheque",
+      "status": "Paid",
+      "reference": "CHQ001234"
+    },
+    {
+      "id": "FEE003",
+      "studentId": "STU003",
+      "studentName": "Amit Patel",
+      "amount": 50000,
+      "type": "Tuition",
+      "date": "2024-10-25",
+      "method": "Card",
+      "status": "Pending",
+      "reference": "CARD2024001"
+    }
+  ],
+  "hostel": [
+    {
+      "id": "HST001",
+      "studentId": "STU001",
+      "studentName": "Rajesh Kumar",
+      "block": "Block A (Boys)",
+      "room": "A101",
+      "bed": "1",
+      "checkInDate": "2022-07-20",
+      "status": "Occupied"
+    },
+    {
+      "id": "HST002",
+      "studentId": "STU002",
+      "studentName": "Priya Singh",
+      "block": "Block C (Girls)",
+      "room": "C201",
+      "bed": "2",
+      "checkInDate": "2022-07-20",
+      "status": "Occupied"
+    }
+  ],
+  "exams": [
+    {
+      "id": "EXM001",
+      "studentId": "STU001",
+      "studentName": "Rajesh Kumar",
+      "semester": "Semester 1",
+      "subject": "CS101",
+      "subjectName": "Data Structures",
+      "marks": 85,
+      "totalMarks": 100,
+      "date": "2024-10-05"
+    },
+    {
+      "id": "EXM002",
+      "studentId": "STU001",
+      "studentName": "Rajesh Kumar",
+      "semester": "Semester 1",
+      "subject": "CS102",
+      "subjectName": "Web Development",
+      "marks": 88,
+      "totalMarks": 100,
+      "date": "2024-10-12"
+    }
+  ]
+}

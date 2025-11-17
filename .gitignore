@@ -1,0 +1,16 @@
+node_modules/
+client/node_modules/
+data/
+*.db
+*.db-journal
+.env
+.DS_Store
+*.log
+build/
+dist/
+backups/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
